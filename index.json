@@ -8,6 +8,7 @@
       "nameJa": "音空",
       "tagline": "Musik tanpa iklan, dari HP sampai awan.",
       "packageName": "com.shicomp.otosora",
+      "icon": "icons/otosora.png",
       "tagPrefix": "otosora-v",
       "manifest": "apps/otosora.json"
     }

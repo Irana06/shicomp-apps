@@ -57,6 +57,7 @@
   }
   .app-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
   .app h2 { font: 600 22px "Shippori Mincho", serif; margin: 0; }
+  .icon { width: 48px; height: 48px; border-radius: 12px; align-self: center; }
   .ja { color: var(--muted); font-family: "Shippori Mincho", serif; }
   .version { margin-left: auto; color: var(--muted); font-size: 14px; }
   .tagline { margin: 6px 0 18px; }
@@ -104,6 +105,7 @@
     return `
       <section class="app">
         <div class="app-head">
+          ${app.icon ? `<img class="icon" src="${esc(app.icon)}" alt="" width="48" height="48">` : ""}
           <h2>${esc(app.name)}</h2>
           <span class="ja">${esc(app.nameJa)}</span>
           <span class="version">${latest ? "v" + esc(latest.version) : "belum dirilis"}</span>
