@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shicomp Apps</title>
+<meta name="description" content="Download aplikasi Android buatan Shicomp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f4f1ea;
+    --surface: #fbf9f4;
+    --line: #ddd6c8;
+    --text: #23211d;
+    --muted: #6b665c;
+    --accent: #1f4e79;      /* 藍 ai */
+    --accent-ink: #ffffff;
+    --seal: #b8432f;        /* 朱 shu */
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #11141c;
+      --surface: #181c27;
+      --line: #2a3040;
+      --text: #e8e4da;
+      --muted: #969cab;
+      --accent: #8fb3d9;
+      --accent-ink: #11141c;
+      --seal: #d9654f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 "Zen Kaku Gothic New", system-ui, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 16px 72px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .hanko {
+    width: 44px; height: 44px; border-radius: 8px;
+    display: grid; place-items: center;
+    background: var(--seal); color: #fff;
+    font: 600 22px "Shippori Mincho", serif;
+  }
+  h1 { font: 600 28px/1.2 "Shippori Mincho", serif; margin: 0; letter-spacing: .02em; }
+  .lead { color: var(--muted); margin: 0 0 40px; }
+  .app {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .app-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .app h2 { font: 600 22px "Shippori Mincho", serif; margin: 0; }
+  .ja { color: var(--muted); font-family: "Shippori Mincho", serif; }
+  .version { margin-left: auto; color: var(--muted); font-size: 14px; }
+  .tagline { margin: 6px 0 18px; }
+  .btn {
+    display: inline-block; text-decoration: none;
+    background: var(--accent); color: var(--accent-ink);
+    padding: 10px 18px; border-radius: 10px; font-weight: 700;
+  }
+  .btn[aria-disabled="true"] { opacity: .45; pointer-events: none; }
+  .others { margin-top: 12px; font-size: 14px; color: var(--muted); }
+  .others a { color: inherit; }
+  details { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 12px; }
+  summary { cursor: pointer; color: var(--muted); font-size: 14px; }
+  pre {
+    white-space: pre-wrap; word-break: break-word;
+    font: 14px/1.6 "Zen Kaku Gothic New", system-ui, sans-serif;
+    margin: 10px 0 0;
+  }
+  footer { color: var(--muted); font-size: 13px; margin-top: 40px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="hanko" aria-hidden="true">紫</div>
+    <h1>Shicomp Apps</h1>
+  </header>
+  <p class="lead">Aplikasi Android tanpa iklan. Pilih APK <b>arm64-v8a</b> untuk kebanyakan HP sekarang.</p>
+  <div id="apps"><p class="lead">Memuat…</p></div>
+  <footer>
+    Semua rilis ada di <a href="https://github.com/Irana06/shicomp-apps/releases">GitHub Releases</a>.
+  </footer>
+</main>
+<script>
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const mb = b => (b / 1048576).toFixed(1) + " MB";
+
+  function card(app, m) {
+    const latest = m && m.latest;
+    const apks = latest ? latest.apks : [];
+    const main = apks.find(a => a.abi === "arm64-v8a") || apks[0];
+    const others = apks.filter(a => a !== main)
+      .map(a => `<a href="${esc(a.url)}">${esc(a.abi)}</a> (${mb(a.size)})`).join(" · ");
+    return `
+      <section class="app">
+        <div class="app-head">
+          <h2>${esc(app.name)}</h2>
+          <span class="ja">${esc(app.nameJa)}</span>
+          <span class="version">${latest ? "v" + esc(latest.version) : "belum dirilis"}</span>
+        </div>
+        <p class="tagline">${esc(app.tagline)}</p>
+        ${main
+          ? `<a class="btn" href="${esc(main.url)}">Download ${esc(main.abi)} · ${mb(main.size)}</a>`
+          : `<a class="btn" aria-disabled="true">Segera hadir</a>`}
+        ${others ? `<div class="others">APK lain: ${others}</div>` : ""}
+        ${latest && latest.notes ? `<details><summary>Catatan rilis</summary><pre>${esc(latest.notes)}</pre></details>` : ""}
+      </section>`;
+  }
+
+  (async () => {
+    const box = document.getElementById("apps");
+    try {
+      const index = await (await fetch("index.json", { cache: "no-cache" })).json();
+      const manifests = await Promise.all(index.apps.map(a =>
+        fetch(a.manifest, { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null)));
+      box.innerHTML = index.apps.map((a, i) => card(a, manifests[i])).join("");
+    } catch (e) {
+      box.innerHTML = `<p class="lead">Gagal memuat daftar aplikasi. Coba buka <a href="https://github.com/Irana06/shicomp-apps/releases">Releases</a>.</p>`;
+    }
+  })();
+</script>
+</body>
+</html>

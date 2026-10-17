@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "publisher": "Shicomp",
+  "apps": [
+    {
+      "id": "otosora",
+      "name": "Otosora",
+      "nameJa": "音空",
+      "tagline": "Musik tanpa iklan, dari HP sampai awan.",
+      "packageName": "com.shicomp.otosora",
+      "tagPrefix": "otosora-v",
+      "manifest": "apps/otosora.json"
+    }
+  ]
+}
