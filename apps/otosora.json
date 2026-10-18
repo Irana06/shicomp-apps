@@ -4,37 +4,43 @@
   "name": "Otosora",
   "packageName": "com.shicomp.otosora",
   "latest": {
-    "version": "0.2.0",
-    "tag": "otosora-v0.2.0",
-    "title": "otosora v0.2.0",
-    "notes": "Otosora · 音空 0.2.0\n\n- New icon: the ensō, one brush stroke of the night sky with a sakura petal\n- Albums, Artists, and Folders\n- Equalizer with presets, loudness boost, and playback speed\n- Sleep timer that fades out, or stops at the end of the song\n- Synced lyrics in now playing (from LRCLib), saved for offline listening\n- Smart playlists: most played, recently played, recently added, never played\n- Side menu, custom backgrounds, and in-app updates\n- Stream (preview): search YouTube; playback may stop after about a minute while full streaming is finished\n\nPick the APK for your phone. Most phones today use **arm64-v8a**.\n",
-    "publishedAt": "2026-10-18T03:25:43Z",
-    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.2.0",
+    "version": "0.2.1",
+    "tag": "otosora-v0.2.1",
+    "title": "otosora v0.2.1",
+    "notes": "Otosora · 音空 0.2.1\n\n- Fix: Otosora could stay on the splash screen forever. It now opens a start screen right away and shows each startup step.\n- If something fails while starting, Otosora shows which step stopped and the error, with a button to copy the details.\n\nPick the APK for your phone. Most phones today use **arm64-v8a**.\n",
+    "publishedAt": "2026-10-18T04:34:50Z",
+    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.2.1",
     "apks": [
       {
         "abi": "arm64-v8a",
-        "name": "otosora-v0.2.0-arm64-v8a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.2.0/otosora-v0.2.0-arm64-v8a.apk",
+        "name": "otosora-v0.2.1-arm64-v8a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.2.1/otosora-v0.2.1-arm64-v8a.apk",
         "size": 33619061,
-        "sha256": "46bd3444987806e08acbb1678a492b173d069c6ff85ec43e9d5e7e65b7956ed1"
+        "sha256": "5c4b77441c360ba083c2b225c7b06e7414090bb6a6b47371659228e32ee1ee4f"
       },
       {
         "abi": "armeabi-v7a",
-        "name": "otosora-v0.2.0-armeabi-v7a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.2.0/otosora-v0.2.0-armeabi-v7a.apk",
-        "size": 31355839,
-        "sha256": "516043a9b5d49c5624bdf0b9a859ec27ade5ed2cc76785ce6671c34eee4772f2"
+        "name": "otosora-v0.2.1-armeabi-v7a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.2.1/otosora-v0.2.1-armeabi-v7a.apk",
+        "size": 31372223,
+        "sha256": "5c65d151554a8e9104ca314b1da8b46d478118896332de9f9013428796ff06f0"
       },
       {
         "abi": "x86_64",
-        "name": "otosora-v0.2.0-x86_64.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.2.0/otosora-v0.2.0-x86_64.apk",
+        "name": "otosora-v0.2.1-x86_64.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.2.1/otosora-v0.2.1-x86_64.apk",
         "size": 35136326,
-        "sha256": "f533ea9b38db26278f550d6685cc0644dbd994ed6128f97a4f99a81f9c6c84ad"
+        "sha256": "f338b3778bb4d30dd7d5d6a29b522f75d8b5b2ae7940ef8f15d7f0ae7a29e235"
       }
     ]
   },
   "history": [
+    {
+      "version": "0.2.1",
+      "tag": "otosora-v0.2.1",
+      "publishedAt": "2026-10-18T04:34:50Z",
+      "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.2.1"
+    },
     {
       "version": "0.2.0",
       "tag": "otosora-v0.2.0",
