@@ -4,37 +4,43 @@
   "name": "Otosora",
   "packageName": "com.shicomp.otosora",
   "latest": {
-    "version": "0.2.3",
-    "tag": "otosora-v0.2.3",
-    "title": "otosora v0.2.3",
-    "notes": "Otosora · 音空 0.2.3\n\n- Fix: Otosora still stopped at \"Reading settings\". The settings plugin is now pinned to the version that does not depend on code release builds remove.\n\nPick the APK for your phone. Most phones today use **arm64-v8a**.\n",
-    "publishedAt": "2026-10-18T06:14:08Z",
-    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.2.3",
+    "version": "0.3.0",
+    "tag": "otosora-v0.3.0",
+    "title": "otosora v0.3.0",
+    "notes": "Otosora · 音空 0.3.0\n\nStreaming\n- Streamed songs now play all the way through. Audio links come from yt-dlp, the same tool the downloader uses.\n- Download any streamed song with the button beside it. Downloaded songs play from the phone, so they work without a signal.\n- Start a radio from any song, and import YouTube or Spotify playlists.\n- Data saver, in Settings, streams smaller audio to save quota.\n\nDownloads\n- Share a link from YouTube, TikTok, Spotify, and other sites to \"Download with Otosora\", or paste it in Downloads.\n- Choose M4A, MP3, or Opus. SponsorBlock can cut non-music parts.\n- Files are saved to Music/Otosora and show up in your library.\n\nEvery song has a ⋮ menu\n- Play next, add to queue, add to playlist, go to album or artist, find on YouTube, start radio, download, edit info, details, set as ringtone, hide, share, and delete from phone.\n\nNow playing\n- A ⋮ menu with lyrics, speed, equalizer, sleep timer, a 300 ms fade on play and pause, and volume.\n- The cover tints the background, and covers and titles cross-fade when the song changes.\n\nLibrary\n- Filter songs by all, favourites, downloaded, or never played, and sort them six ways.\n- Genres, artists, albums, and folders. Hidden songs and folders can be brought back in Settings.\n- Listening stats: plays per day, streaks, top songs and artists, and the hour you listen most.\n- Playback resumes when headphones reconnect, if you turn it on.\n- A home screen widget with the current song and controls.\n\nPick the APK for your phone. Most phones today use **arm64-v8a**.\n",
+    "publishedAt": "2026-10-18T07:17:53Z",
+    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.3.0",
     "apks": [
       {
         "abi": "arm64-v8a",
-        "name": "otosora-v0.2.3-arm64-v8a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.2.3/otosora-v0.2.3-arm64-v8a.apk",
-        "size": 33487989,
-        "sha256": "da021b6cfa9520b11ee42c3c3dce20c4579ccfa49d7c824a4368f6894388766b"
+        "name": "otosora-v0.3.0-arm64-v8a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.3.0/otosora-v0.3.0-arm64-v8a.apk",
+        "size": 74852331,
+        "sha256": "5e976fb701bbb9e19482b27a9f4f03906b9cc1b8379eff79f460863400e3a744"
       },
       {
         "abi": "armeabi-v7a",
-        "name": "otosora-v0.2.3-armeabi-v7a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.2.3/otosora-v0.2.3-armeabi-v7a.apk",
-        "size": 31224767,
-        "sha256": "87492a2a432ed7fcf846447a6cb1cf869e6163c9c59495126607405e89313e31"
+        "name": "otosora-v0.3.0-armeabi-v7a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.3.0/otosora-v0.3.0-armeabi-v7a.apk",
+        "size": 67862769,
+        "sha256": "69b1e89a3749028b141611cf794e228c787ddac30236d9988e3ef7319de18313"
       },
       {
         "abi": "x86_64",
-        "name": "otosora-v0.2.3-x86_64.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.2.3/otosora-v0.2.3-x86_64.apk",
-        "size": 35005254,
-        "sha256": "9a47a9d6dd2eca2205dbd974ab46a0a515a91b91855bdff28a536ba68072ebb5"
+        "name": "otosora-v0.3.0-x86_64.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.3.0/otosora-v0.3.0-x86_64.apk",
+        "size": 78084094,
+        "sha256": "d5a2ce8fe8a3db3b7b672316cdb1e547d6e14c3ba9982d4f0f421fdfd56927f2"
       }
     ]
   },
   "history": [
+    {
+      "version": "0.3.0",
+      "tag": "otosora-v0.3.0",
+      "publishedAt": "2026-10-18T07:17:53Z",
+      "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.3.0"
+    },
     {
       "version": "0.2.3",
       "tag": "otosora-v0.2.3",
