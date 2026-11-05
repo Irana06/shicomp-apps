@@ -4,37 +4,43 @@
   "name": "Otosora",
   "packageName": "com.shicomp.otosora",
   "latest": {
-    "version": "0.6.1",
-    "tag": "otosora-v0.6.1",
-    "title": "otosora v0.6.1",
-    "notes": "# Otosora 0.6.1\n\n## Fixes\n- Play, pause, next and previous in the notification, on the lock screen and on headsets work again after a song fails to load. Before, the player stopped responding until a new queue was started.\n- Changing the sky in Background no longer removes your own picture. The sky's colors now tint the picture instead. Use \"Remove picture\" to go back to a plain sky.\n- When YouTube asks for a sign-in on your network, the song stops loading right away and Otosora tells you why. Before, the play button spun for a long time. Downloaded songs still play.\n\n## Visualizer\n- The visualizer now rises from the bottom edge of the screen, behind the title and controls.\n- Five styles to choose from: Bars, Mirror, Wave, Dots and Glow. Open Now playing, then the ⋮ menu, then Visualizer.\n",
-    "publishedAt": "2026-11-05T07:00:08Z",
-    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.6.1",
+    "version": "0.6.3",
+    "tag": "otosora-v0.6.3",
+    "title": "otosora v0.6.3",
+    "notes": "# Otosora 0.6.3\n\n## Faster streaming\n- A tapped stream song starts sooner. yt-dlp is now prepared when Otosora opens instead of on the first tap, and each lookup skips two downloads Otosora never used.\n- After a search, the first three songs are looked up in the background, so tapping one of them usually plays at once.\n- Search shows YouTube Music's results as soon as they arrive. Covers and remixes found on YouTube fill in a moment later.\n- A stalled connection now fails after 10 seconds instead of leaving the song loading.\n\n## Fixes\n- Streamed songs show their length and progress instead of 0:00 / 0:00.\n- Next and previous wait for a streamed song to be ready, so it starts instead of timing out.\n",
+    "publishedAt": "2026-11-05T08:20:12Z",
+    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.6.3",
     "apks": [
       {
         "abi": "arm64-v8a",
-        "name": "otosora-v0.6.1-arm64-v8a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.1/otosora-v0.6.1-arm64-v8a.apk",
-        "size": 74972655,
-        "sha256": "a449de58ca2b364ceb1d4c26cd3272b7eef9fefc06e60a4a5d12d166cb7c7854"
+        "name": "otosora-v0.6.3-arm64-v8a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.3/otosora-v0.6.3-arm64-v8a.apk",
+        "size": 74974871,
+        "sha256": "046bb8ead676fa7bfb80ede3588ef7da0b3fe74ebce641c752a3e20497e37543"
       },
       {
         "abi": "armeabi-v7a",
-        "name": "otosora-v0.6.1-armeabi-v7a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.1/otosora-v0.6.1-armeabi-v7a.apk",
-        "size": 67992625,
-        "sha256": "9d02457ae490ae03fc85ad21c5974cfc61f4344fb0f2d4bb206941073be8477a"
+        "name": "otosora-v0.6.3-armeabi-v7a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.3/otosora-v0.6.3-armeabi-v7a.apk",
+        "size": 67995645,
+        "sha256": "61782b49bc8ffc916e434869d57371f80e5348a9cf8095d08ed8ca4e9c5bf7b1"
       },
       {
         "abi": "x86_64",
-        "name": "otosora-v0.6.1-x86_64.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.1/otosora-v0.6.1-x86_64.apk",
-        "size": 78204614,
-        "sha256": "16dad3ffa62c409aa6f985d127c72b8c537c5a766ff896cb8b5b454030b64df6"
+        "name": "otosora-v0.6.3-x86_64.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.3/otosora-v0.6.3-x86_64.apk",
+        "size": 78207558,
+        "sha256": "555a02bedd6af36c2f2f2a8a97b54f3248eb7f0783c3672a07105bfd8133dda7"
       }
     ]
   },
   "history": [
+    {
+      "version": "0.6.3",
+      "tag": "otosora-v0.6.3",
+      "publishedAt": "2026-11-05T08:20:12Z",
+      "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.6.3"
+    },
     {
       "version": "0.6.1",
       "tag": "otosora-v0.6.1",
