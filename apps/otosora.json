@@ -4,37 +4,43 @@
   "name": "Otosora",
   "packageName": "com.shicomp.otosora",
   "latest": {
-    "version": "0.6.0",
-    "tag": "otosora-v0.6.0",
-    "title": "otosora v0.6.0",
-    "notes": "Otosora · 音空 0.6.0\n\nStream search, rebuilt\n- Results now come sorted the way a streaming app shows them: the song you searched for at the top, a few more matching songs, more from the same artist, then covers, remixes and live versions, similar songs, artists, and albums. The same song re-uploaded with lyrics no longer fills the list.\n- The top result plays the official audio, and similar songs follow it in the queue.\n- Searching for an artist shows the artist first, with their most played songs.\n- Tapping a song plays it right away. Before, the first song after opening Otosora often stayed paused until you pressed Play.\n- Autoplay, artist mixes, and artist pages use YouTube Music's song lists, which are faster and list official songs.\n\nPlayer\n- Otosora reopens on the song you were playing, at the same position, after Android closes it or you swipe it away. Before, it went back to the first song of the queue.\n- Shuffle reorders the queue itself, so the queue list shows the real order, and songs by the same artist are kept apart. Turning shuffle off puts the original order back.\n- Shuffle and repeat show clearly when they are on: a pink icon on a tinted circle with a dot under it.\n- The visualizer moved behind the song title, as bars along the bottom of the player.\n\nLibrary\n- The title bar comes back as soon as you scroll up a little, so the menu is always close.\n- A song's menu has \"Hide this folder\", to keep a folder such as sound effects out of Songs, Albums, and shuffle. Hidden folders and songs can be shown again in Settings.\n\nUpdates\n- The in-app updater works like Monshika's: once the download finishes, Android's installer opens. If something stops it, the sheet now says why instead of staying at 100%.\n\nPick the APK for your phone. Most phones today use **arm64-v8a**.\n",
-    "publishedAt": "2026-11-05T05:17:10Z",
-    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.6.0",
+    "version": "0.6.1",
+    "tag": "otosora-v0.6.1",
+    "title": "otosora v0.6.1",
+    "notes": "# Otosora 0.6.1\n\n## Fixes\n- Play, pause, next and previous in the notification, on the lock screen and on headsets work again after a song fails to load. Before, the player stopped responding until a new queue was started.\n- Changing the sky in Background no longer removes your own picture. The sky's colors now tint the picture instead. Use \"Remove picture\" to go back to a plain sky.\n- When YouTube asks for a sign-in on your network, the song stops loading right away and Otosora tells you why. Before, the play button spun for a long time. Downloaded songs still play.\n\n## Visualizer\n- The visualizer now rises from the bottom edge of the screen, behind the title and controls.\n- Five styles to choose from: Bars, Mirror, Wave, Dots and Glow. Open Now playing, then the ⋮ menu, then Visualizer.\n",
+    "publishedAt": "2026-11-05T07:00:08Z",
+    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.6.1",
     "apks": [
       {
         "abi": "arm64-v8a",
-        "name": "otosora-v0.6.0-arm64-v8a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.0/otosora-v0.6.0-arm64-v8a.apk",
-        "size": 74962583,
-        "sha256": "2c72081b3280d113b999baef371c03366811985a1420752ec4944570e01365b4"
+        "name": "otosora-v0.6.1-arm64-v8a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.1/otosora-v0.6.1-arm64-v8a.apk",
+        "size": 74972655,
+        "sha256": "a449de58ca2b364ceb1d4c26cd3272b7eef9fefc06e60a4a5d12d166cb7c7854"
       },
       {
         "abi": "armeabi-v7a",
-        "name": "otosora-v0.6.0-armeabi-v7a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.0/otosora-v0.6.0-armeabi-v7a.apk",
-        "size": 67982533,
-        "sha256": "1830ca0712bae606118a087a16ece277867bb8f82846b93b0ef42421031aa579"
+        "name": "otosora-v0.6.1-armeabi-v7a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.1/otosora-v0.6.1-armeabi-v7a.apk",
+        "size": 67992625,
+        "sha256": "9d02457ae490ae03fc85ad21c5974cfc61f4344fb0f2d4bb206941073be8477a"
       },
       {
         "abi": "x86_64",
-        "name": "otosora-v0.6.0-x86_64.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.0/otosora-v0.6.0-x86_64.apk",
-        "size": 78195218,
-        "sha256": "1481771673d4f70130bc973d1233b3e6271cf5d46a7aca57fadbdcf88ebba732"
+        "name": "otosora-v0.6.1-x86_64.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.1/otosora-v0.6.1-x86_64.apk",
+        "size": 78204614,
+        "sha256": "16dad3ffa62c409aa6f985d127c72b8c537c5a766ff896cb8b5b454030b64df6"
       }
     ]
   },
   "history": [
+    {
+      "version": "0.6.1",
+      "tag": "otosora-v0.6.1",
+      "publishedAt": "2026-11-05T07:00:08Z",
+      "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.6.1"
+    },
     {
       "version": "0.6.0",
       "tag": "otosora-v0.6.0",
