@@ -4,37 +4,43 @@
   "name": "Otosora",
   "packageName": "com.shicomp.otosora",
   "latest": {
-    "version": "0.6.3",
-    "tag": "otosora-v0.6.3",
-    "title": "otosora v0.6.3",
-    "notes": "# Otosora 0.6.3\n\n## Faster streaming\n- A tapped stream song starts sooner. yt-dlp is now prepared when Otosora opens instead of on the first tap, and each lookup skips two downloads Otosora never used.\n- After a search, the first three songs are looked up in the background, so tapping one of them usually plays at once.\n- Search shows YouTube Music's results as soon as they arrive. Covers and remixes found on YouTube fill in a moment later.\n- A stalled connection now fails after 10 seconds instead of leaving the song loading.\n\n## Fixes\n- Streamed songs show their length and progress instead of 0:00 / 0:00.\n- Next and previous wait for a streamed song to be ready, so it starts instead of timing out.\n",
-    "publishedAt": "2026-11-05T08:20:12Z",
-    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.6.3",
+    "version": "0.7.1",
+    "tag": "otosora-v0.7.1",
+    "title": "otosora v0.7.1",
+    "notes": "# Otosora 0.7.1\n\n## Otosora on Windows and Linux\n- New desktop app for Windows (`otosora-v0.7.1-windows-x64.zip`) and Linux (`otosora-v0.7.1-linux-x64.tar.gz`), with the same library, streaming, downloads, lyrics and playlists as the phone app.\n- A desktop layout: a sidebar with your playlists, pages that open in the middle, a now playing panel with synced lyrics and what plays next, and a player bar with seek and volume.\n- Songs come from your Music folder. Add more folders in Settings → Music folders.\n- Space plays and pauses, Ctrl+←/→ change songs, Ctrl+↑/↓ change the volume. Right-click a song for its actions.\n- Windows: previous, play/pause and next under the taskbar thumbnail, the media overlay for keyboard media keys, and the visualizer, which listens only to Otosora's own sound.\n- Linux: media keys and the desktop's media panel work through MPRIS.\n\n## Installing on desktop\n- Windows: unzip anywhere and run `otosora.exe`.\n- Linux: extract the archive and run `./install.sh`. It adds Otosora to the applications menu. Audio needs libmpv (Fedora: `mpv-libs` from RPM Fusion, Ubuntu: `libmpv2`).\n- Desktop versions do not update themselves yet. Download the new archive to update.\n\n## Phone\n- The line being sung now sits in the middle of the lyrics.\n",
+    "publishedAt": "2026-11-05T21:19:49Z",
+    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.7.1",
     "apks": [
       {
         "abi": "arm64-v8a",
-        "name": "otosora-v0.6.3-arm64-v8a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.3/otosora-v0.6.3-arm64-v8a.apk",
-        "size": 74974871,
-        "sha256": "046bb8ead676fa7bfb80ede3588ef7da0b3fe74ebce641c752a3e20497e37543"
+        "name": "otosora-v0.7.1-arm64-v8a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.7.1/otosora-v0.7.1-arm64-v8a.apk",
+        "size": 75103721,
+        "sha256": "b518f29a0ef5be202ad6ebd385ddc5670e3f6cf0c4324ce5267bbdb30c9aba2b"
       },
       {
         "abi": "armeabi-v7a",
-        "name": "otosora-v0.6.3-armeabi-v7a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.3/otosora-v0.6.3-armeabi-v7a.apk",
-        "size": 67995645,
-        "sha256": "61782b49bc8ffc916e434869d57371f80e5348a9cf8095d08ed8ca4e9c5bf7b1"
+        "name": "otosora-v0.7.1-armeabi-v7a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.7.1/otosora-v0.7.1-armeabi-v7a.apk",
+        "size": 68121659,
+        "sha256": "2d207d8790a2ad3f4ddb42a48cd7c67cb99121c6c799ada9f88b5ee072600ad0"
       },
       {
         "abi": "x86_64",
-        "name": "otosora-v0.6.3-x86_64.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.6.3/otosora-v0.6.3-x86_64.apk",
-        "size": 78207558,
-        "sha256": "555a02bedd6af36c2f2f2a8a97b54f3248eb7f0783c3672a07105bfd8133dda7"
+        "name": "otosora-v0.7.1-x86_64.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.7.1/otosora-v0.7.1-x86_64.apk",
+        "size": 78332648,
+        "sha256": "12a49e30528e70ecbcf3a46aba20b31237e8aca5e97f4f5c204cf22b736d3b32"
       }
     ]
   },
   "history": [
+    {
+      "version": "0.7.1",
+      "tag": "otosora-v0.7.1",
+      "publishedAt": "2026-11-05T21:19:49Z",
+      "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.7.1"
+    },
     {
       "version": "0.6.3",
       "tag": "otosora-v0.6.3",
