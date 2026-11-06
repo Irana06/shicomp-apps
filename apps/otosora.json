@@ -4,37 +4,43 @@
   "name": "Otosora",
   "packageName": "com.shicomp.otosora",
   "latest": {
-    "version": "0.8.1",
-    "tag": "otosora-v0.8.1",
-    "title": "otosora v0.8.1",
-    "notes": "# Otosora 0.8.1\n\n## Desktop\n- Discord now shows \"Listening to Otosora\" with the song, artist and time while music plays. The Discord desktop app has to be open, with Settings → Activity Privacy → Share your activity status turned on. Turn it off in Otosora under Settings.\n- The Windows download is named `otosora-v0.8.1-windows-x64.zip` again (0.8.0 had a stray dot in the name), so the next update can find it.\n- From 0.8.0 on, open Updates in the sidebar to install this version.\n",
-    "publishedAt": "2026-11-06T16:51:05Z",
-    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.1",
+    "version": "0.8.2",
+    "tag": "otosora-v0.8.2",
+    "title": "otosora v0.8.2",
+    "notes": "# Otosora 0.8.2\n\n## Windows\n- New installer: `otosora-v0.8.2-windows-x64-setup.exe`. It installs Otosora for your user without asking for admin rights, adds it to the Start menu (and the desktop, if you tick the box) and to Apps & features for uninstalling.\n- Installed this way, updates from the Updates page install quietly in the background and Otosora opens again by itself.\n- The zip is still there if you prefer a folder you run from anywhere. If you move to the installer, delete the old unzipped folder afterwards; your library, playlists and settings stay.\n",
+    "publishedAt": "2026-11-06T17:15:32Z",
+    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.2",
     "apks": [
       {
         "abi": "arm64-v8a",
-        "name": "otosora-v0.8.1-arm64-v8a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.1/otosora-v0.8.1-arm64-v8a.apk",
+        "name": "otosora-v0.8.2-arm64-v8a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.2/otosora-v0.8.2-arm64-v8a.apk",
         "size": 75141935,
-        "sha256": "a12e18723b9530abebea6a4a5d8386d21c0be84915ccb906a8b44d40ae8955fe"
+        "sha256": "98573759fc5d4a196f6cf2cc23c70ff068b33a44f36ceac67b62125996ce9539"
       },
       {
         "abi": "armeabi-v7a",
-        "name": "otosora-v0.8.1-armeabi-v7a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.1/otosora-v0.8.1-armeabi-v7a.apk",
+        "name": "otosora-v0.8.2-armeabi-v7a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.2/otosora-v0.8.2-armeabi-v7a.apk",
         "size": 68167285,
-        "sha256": "599c29e6e3bcce3dd45194222934da745f77740e9c441592af4ec403fd93d16c"
+        "sha256": "c5b51c66ee1ea2713d5013ff7ba947692c22f3adc26c6206a34423c9fbb76eee"
       },
       {
         "abi": "x86_64",
-        "name": "otosora-v0.8.1-x86_64.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.1/otosora-v0.8.1-x86_64.apk",
+        "name": "otosora-v0.8.2-x86_64.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.2/otosora-v0.8.2-x86_64.apk",
         "size": 78373134,
-        "sha256": "983c8b9943e784fa5d367d58ad9441777579d2f39c7e972d99edaf105a4424b4"
+        "sha256": "51871188bebfaf6b9d5666c9f078d2e376184117b21944a7b1d870afe31e4e78"
       }
     ]
   },
   "history": [
+    {
+      "version": "0.8.2",
+      "tag": "otosora-v0.8.2",
+      "publishedAt": "2026-11-06T17:15:32Z",
+      "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.2"
+    },
     {
       "version": "0.8.1",
       "tag": "otosora-v0.8.1",
