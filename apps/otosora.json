@@ -4,37 +4,43 @@
   "name": "Otosora",
   "packageName": "com.shicomp.otosora",
   "latest": {
-    "version": "0.8.0",
-    "tag": "otosora-v0.8.0",
-    "title": "otosora v0.8.0",
-    "notes": "# Otosora 0.8.0\n\n## Phone and computer\n- Sync favourites and playlists between the phone and the computer over the same Wi-Fi. On the computer open Settings → Sync with your phone, then enter its address and code on the phone in Settings → Sync with your computer. Sync only adds; it never deletes. Songs from files are matched by title, artist and length, so a song has to be on both devices to show up in the other's playlist.\n- Fade between songs: Now playing → menu → Fade between songs, up to 12 seconds.\n- Pressing play after a long pause now continues the song you were on. Before, a stream queue could jump back to the first song.\n- The visualizer stays on in the lyrics view and runs behind the mini player.\n- The phone visualizer follows the beat more closely, using the same bands as the desktop app.\n\n## Desktop\n- Otosora updates itself. Open Updates in the sidebar; it downloads the new version, replaces the old one and restarts.\n- Tray icon with play/pause, next, previous and the mini player. Closing the window keeps Otosora playing in the tray; turn that off in Settings → Close to the tray.\n- Mini player: a small window that stays on top. Open it from the player bar or the tray, and drag it anywhere.\n- Discord shows what you are listening to, when the Discord app is open. Turn it off in Settings.\n- Linux: the visualizer now works. It hears everything the computer plays, not only Otosora, and needs `parec` (pulseaudio-utils) or `pw-record` (pipewire-utils).\n- Linux: the tray icon needs libayatana-appindicator (Fedora: `sudo dnf install libayatana-appindicator-gtk3`).\n\n## Updating from 0.7.1 on desktop\n- 0.7.1 can't update itself yet. Download this version once by hand; later versions install from the app.\n",
-    "publishedAt": "2026-11-06T01:31:21Z",
-    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.0",
+    "version": "0.8.1",
+    "tag": "otosora-v0.8.1",
+    "title": "otosora v0.8.1",
+    "notes": "# Otosora 0.8.1\n\n## Desktop\n- Discord now shows \"Listening to Otosora\" with the song, artist and time while music plays. The Discord desktop app has to be open, with Settings → Activity Privacy → Share your activity status turned on. Turn it off in Otosora under Settings.\n- The Windows download is named `otosora-v0.8.1-windows-x64.zip` again (0.8.0 had a stray dot in the name), so the next update can find it.\n- From 0.8.0 on, open Updates in the sidebar to install this version.\n",
+    "publishedAt": "2026-11-06T16:51:05Z",
+    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.1",
     "apks": [
       {
         "abi": "arm64-v8a",
-        "name": "otosora-v0.8.0-arm64-v8a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.0/otosora-v0.8.0-arm64-v8a.apk",
+        "name": "otosora-v0.8.1-arm64-v8a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.1/otosora-v0.8.1-arm64-v8a.apk",
         "size": 75141935,
-        "sha256": "51a504948dc18b3065f8ce42c11968c9946384f2065b37c8c1b90d1447f2ef45"
+        "sha256": "a12e18723b9530abebea6a4a5d8386d21c0be84915ccb906a8b44d40ae8955fe"
       },
       {
         "abi": "armeabi-v7a",
-        "name": "otosora-v0.8.0-armeabi-v7a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.0/otosora-v0.8.0-armeabi-v7a.apk",
+        "name": "otosora-v0.8.1-armeabi-v7a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.1/otosora-v0.8.1-armeabi-v7a.apk",
         "size": 68167285,
-        "sha256": "676980dbccb563ff4d3ee9a74c61e8f88045d7331b81a6e1c558b8e9a2855588"
+        "sha256": "599c29e6e3bcce3dd45194222934da745f77740e9c441592af4ec403fd93d16c"
       },
       {
         "abi": "x86_64",
-        "name": "otosora-v0.8.0-x86_64.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.0/otosora-v0.8.0-x86_64.apk",
+        "name": "otosora-v0.8.1-x86_64.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.1/otosora-v0.8.1-x86_64.apk",
         "size": 78373134,
-        "sha256": "fa84e2de40fa1968caafdf2b2226cc9ec3b3bd62458d6b29b95bb74e3c814101"
+        "sha256": "983c8b9943e784fa5d367d58ad9441777579d2f39c7e972d99edaf105a4424b4"
       }
     ]
   },
   "history": [
+    {
+      "version": "0.8.1",
+      "tag": "otosora-v0.8.1",
+      "publishedAt": "2026-11-06T16:51:05Z",
+      "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.1"
+    },
     {
       "version": "0.8.0",
       "tag": "otosora-v0.8.0",
