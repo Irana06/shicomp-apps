@@ -4,37 +4,43 @@
   "name": "Otosora",
   "packageName": "com.shicomp.otosora",
   "latest": {
-    "version": "0.8.2",
-    "tag": "otosora-v0.8.2",
-    "title": "otosora v0.8.2",
-    "notes": "# Otosora 0.8.2\n\n## Windows\n- New installer: `otosora-v0.8.2-windows-x64-setup.exe`. It installs Otosora for your user without asking for admin rights, adds it to the Start menu (and the desktop, if you tick the box) and to Apps & features for uninstalling.\n- Installed this way, updates from the Updates page install quietly in the background and Otosora opens again by itself.\n- The zip is still there if you prefer a folder you run from anywhere. If you move to the installer, delete the old unzipped folder afterwards; your library, playlists and settings stay.\n",
-    "publishedAt": "2026-11-06T17:15:32Z",
-    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.2",
+    "version": "0.8.4",
+    "tag": "otosora-v0.8.4",
+    "title": "otosora v0.8.4",
+    "notes": "# Otosora 0.8.4\n\n## Lyrics\n- No more scrambled letters for a moment when a line lights up. The highlight used to pass through a font weight Otosora doesn't ship, so a stand-in font showed for a few frames.\n- Long lines wrap in full instead of being cut off with \"…\", and the line being sung stays in the middle.\n- Scroll the lyrics yourself and they stay where you put them for a few seconds before following the song again.\n- Lines light up a touch earlier, closer to when you hear them.\n- Timing buttons under the lyrics shift them half a second sooner or later for this song, for videos with a long intro. Double-click the number to reset.\n- Lyrics from a different cut of the song (more than 8 seconds longer or shorter) are no longer used, so they don't run ahead.\n- Better matches for streamed songs: channel names like \"Artist - Topic\" or \"Artist Ch. …\" are cleaned before searching.\n- Songs without lyrics are looked up again after a week, and a stuck connection gives up after 15 seconds instead of loading forever.\n- An instrumental gap shows ♪.\n",
+    "publishedAt": "2026-11-06T18:29:28Z",
+    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.4",
     "apks": [
       {
         "abi": "arm64-v8a",
-        "name": "otosora-v0.8.2-arm64-v8a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.2/otosora-v0.8.2-arm64-v8a.apk",
-        "size": 75141935,
-        "sha256": "98573759fc5d4a196f6cf2cc23c70ff068b33a44f36ceac67b62125996ce9539"
+        "name": "otosora-v0.8.4-arm64-v8a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.4/otosora-v0.8.4-arm64-v8a.apk",
+        "size": 75143343,
+        "sha256": "a7bf8141a8dd9e820761aa40eaf4856e9cff05a0a13fdf37d208eafff39a8285"
       },
       {
         "abi": "armeabi-v7a",
-        "name": "otosora-v0.8.2-armeabi-v7a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.2/otosora-v0.8.2-armeabi-v7a.apk",
-        "size": 68167285,
-        "sha256": "c5b51c66ee1ea2713d5013ff7ba947692c22f3adc26c6206a34423c9fbb76eee"
+        "name": "otosora-v0.8.4-armeabi-v7a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.4/otosora-v0.8.4-armeabi-v7a.apk",
+        "size": 68172165,
+        "sha256": "8504ff632922edbc493454a445834257e351429b1073e5c4150bd16339a283ae"
       },
       {
         "abi": "x86_64",
-        "name": "otosora-v0.8.2-x86_64.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.2/otosora-v0.8.2-x86_64.apk",
-        "size": 78373134,
-        "sha256": "51871188bebfaf6b9d5666c9f078d2e376184117b21944a7b1d870afe31e4e78"
+        "name": "otosora-v0.8.4-x86_64.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.4/otosora-v0.8.4-x86_64.apk",
+        "size": 78380766,
+        "sha256": "0e67a873b1dbd8f7fbe8562c46023f98c28bc8ed98fca6a71627d6e354b9ae08"
       }
     ]
   },
   "history": [
+    {
+      "version": "0.8.4",
+      "tag": "otosora-v0.8.4",
+      "publishedAt": "2026-11-06T18:29:28Z",
+      "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.4"
+    },
     {
       "version": "0.8.2",
       "tag": "otosora-v0.8.2",
