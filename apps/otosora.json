@@ -4,37 +4,43 @@
   "name": "Otosora",
   "packageName": "com.shicomp.otosora",
   "latest": {
-    "version": "0.8.4",
-    "tag": "otosora-v0.8.4",
-    "title": "otosora v0.8.4",
-    "notes": "# Otosora 0.8.4\n\n## Lyrics\n- No more scrambled letters for a moment when a line lights up. The highlight used to pass through a font weight Otosora doesn't ship, so a stand-in font showed for a few frames.\n- Long lines wrap in full instead of being cut off with \"…\", and the line being sung stays in the middle.\n- Scroll the lyrics yourself and they stay where you put them for a few seconds before following the song again.\n- Lines light up a touch earlier, closer to when you hear them.\n- Timing buttons under the lyrics shift them half a second sooner or later for this song, for videos with a long intro. Double-click the number to reset.\n- Lyrics from a different cut of the song (more than 8 seconds longer or shorter) are no longer used, so they don't run ahead.\n- Better matches for streamed songs: channel names like \"Artist - Topic\" or \"Artist Ch. …\" are cleaned before searching.\n- Songs without lyrics are looked up again after a week, and a stuck connection gives up after 15 seconds instead of loading forever.\n- An instrumental gap shows ♪.\n",
-    "publishedAt": "2026-11-06T18:29:28Z",
-    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.4",
+    "version": "0.8.5",
+    "tag": "otosora-v0.8.5",
+    "title": "otosora v0.8.5",
+    "notes": "# Otosora 0.8.5\n\n## Streaming\n- One song YouTube won't play no longer stops every other song. YouTube asks for a sign-in on some uploads, and Otosora used to treat that as the whole network being blocked: it paused all streaming for two minutes and the queue skipped from song to song.\n- That song is now skipped on its own, and a message names it and says why: sign-in required, age-restricted, private, removed, or not available in your country. Another version of the song often plays fine.\n- Errors say what went wrong. \"Check the connection\" now shows only when YouTube really couldn't be reached.\n- A stream that stops answering gives up after 20 seconds instead of loading forever. On Windows and Linux, a stuck song lookup stops after 90 seconds.\n- A wrong size guess for some streams no longer cuts songs short or leaves them hanging at the end.\n",
+    "publishedAt": "2026-11-07T21:40:37Z",
+    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.5",
     "apks": [
       {
         "abi": "arm64-v8a",
-        "name": "otosora-v0.8.4-arm64-v8a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.4/otosora-v0.8.4-arm64-v8a.apk",
-        "size": 75143343,
-        "sha256": "a7bf8141a8dd9e820761aa40eaf4856e9cff05a0a13fdf37d208eafff39a8285"
+        "name": "otosora-v0.8.5-arm64-v8a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.5/otosora-v0.8.5-arm64-v8a.apk",
+        "size": 75147863,
+        "sha256": "3c4a82cbc6ded8db0b8f88b8d63efd66b0d292d7b1e33bffcb068b3ee8d9e18c"
       },
       {
         "abi": "armeabi-v7a",
-        "name": "otosora-v0.8.4-armeabi-v7a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.4/otosora-v0.8.4-armeabi-v7a.apk",
-        "size": 68172165,
-        "sha256": "8504ff632922edbc493454a445834257e351429b1073e5c4150bd16339a283ae"
+        "name": "otosora-v0.8.5-armeabi-v7a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.5/otosora-v0.8.5-armeabi-v7a.apk",
+        "size": 68177029,
+        "sha256": "5d98b599c61387aeee560f87d6babde02f9638e60cca3129d6c444d0c57a82aa"
       },
       {
         "abi": "x86_64",
-        "name": "otosora-v0.8.4-x86_64.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.4/otosora-v0.8.4-x86_64.apk",
-        "size": 78380766,
-        "sha256": "0e67a873b1dbd8f7fbe8562c46023f98c28bc8ed98fca6a71627d6e354b9ae08"
+        "name": "otosora-v0.8.5-x86_64.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.5/otosora-v0.8.5-x86_64.apk",
+        "size": 78384810,
+        "sha256": "2a02902036d800cfd30f5cab26a19052ad09ff522c1aaf410c924719771a994f"
       }
     ]
   },
   "history": [
+    {
+      "version": "0.8.5",
+      "tag": "otosora-v0.8.5",
+      "publishedAt": "2026-11-07T21:40:37Z",
+      "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.5"
+    },
     {
       "version": "0.8.4",
       "tag": "otosora-v0.8.4",
