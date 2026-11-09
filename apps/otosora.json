@@ -4,37 +4,43 @@
   "name": "Otosora",
   "packageName": "com.shicomp.otosora",
   "latest": {
-    "version": "0.8.5",
-    "tag": "otosora-v0.8.5",
-    "title": "otosora v0.8.5",
-    "notes": "# Otosora 0.8.5\n\n## Streaming\n- One song YouTube won't play no longer stops every other song. YouTube asks for a sign-in on some uploads, and Otosora used to treat that as the whole network being blocked: it paused all streaming for two minutes and the queue skipped from song to song.\n- That song is now skipped on its own, and a message names it and says why: sign-in required, age-restricted, private, removed, or not available in your country. Another version of the song often plays fine.\n- Errors say what went wrong. \"Check the connection\" now shows only when YouTube really couldn't be reached.\n- A stream that stops answering gives up after 20 seconds instead of loading forever. On Windows and Linux, a stuck song lookup stops after 90 seconds.\n- A wrong size guess for some streams no longer cuts songs short or leaves them hanging at the end.\n",
-    "publishedAt": "2026-11-07T21:40:37Z",
-    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.5",
+    "version": "0.8.7",
+    "tag": "otosora-v0.8.7",
+    "title": "otosora v0.8.7",
+    "notes": "# Otosora 0.8.7\n\n## Windows\n- Updating from inside Otosora works again. Windows' Smart App Control blocked the installer that the update downloaded, so Otosora said \"Restarting…\" and never came back. Updates now unpack the new version over the old one with Windows' own tools.\n- If you are on 0.8.5 or older, install this version by hand once (download the zip or the setup from the release page). Updates after that work from inside the app.\n- Quitting Otosora now always ends it fully, so an update no longer waits forever for it to close.\n- The window has no system title bar anymore. Drag the empty strip along the top to move it, double-click it to maximize, and use the buttons in the top-right corner to minimize, maximize or close.\n\n## Updates\n- On Windows and Linux the update notice is a dialog in the middle of the window instead of a sheet sliding up from the bottom.\n- Release notes show as headings and bullet points instead of raw text with # and ## marks.\n\n## Discord\n- The cover in your Discord status no longer has a black band across it.\n",
+    "publishedAt": "2026-11-09T16:05:39Z",
+    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.7",
     "apks": [
       {
         "abi": "arm64-v8a",
-        "name": "otosora-v0.8.5-arm64-v8a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.5/otosora-v0.8.5-arm64-v8a.apk",
-        "size": 75147863,
-        "sha256": "3c4a82cbc6ded8db0b8f88b8d63efd66b0d292d7b1e33bffcb068b3ee8d9e18c"
+        "name": "otosora-v0.8.7-arm64-v8a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.7/otosora-v0.8.7-arm64-v8a.apk",
+        "size": 75150683,
+        "sha256": "6c26c83a9f16fd8a5d0547c364ff380eb333041ebbe98a8b012715b0f7885722"
       },
       {
         "abi": "armeabi-v7a",
-        "name": "otosora-v0.8.5-armeabi-v7a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.5/otosora-v0.8.5-armeabi-v7a.apk",
-        "size": 68177029,
-        "sha256": "5d98b599c61387aeee560f87d6babde02f9638e60cca3129d6c444d0c57a82aa"
+        "name": "otosora-v0.8.7-armeabi-v7a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.7/otosora-v0.8.7-armeabi-v7a.apk",
+        "size": 68180137,
+        "sha256": "234747e5300d64d40369acf3d37c3c07b1ac3d860fb4f18459a18474afafaece"
       },
       {
         "abi": "x86_64",
-        "name": "otosora-v0.8.5-x86_64.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.5/otosora-v0.8.5-x86_64.apk",
-        "size": 78384810,
-        "sha256": "2a02902036d800cfd30f5cab26a19052ad09ff522c1aaf410c924719771a994f"
+        "name": "otosora-v0.8.7-x86_64.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.7/otosora-v0.8.7-x86_64.apk",
+        "size": 78386578,
+        "sha256": "ef794438e60c80a725aa9ebdb6e56df6989351ba0719a294f11f2c05df691fdc"
       }
     ]
   },
   "history": [
+    {
+      "version": "0.8.7",
+      "tag": "otosora-v0.8.7",
+      "publishedAt": "2026-11-09T16:05:39Z",
+      "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.7"
+    },
     {
       "version": "0.8.5",
       "tag": "otosora-v0.8.5",
