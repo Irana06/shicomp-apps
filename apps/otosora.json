@@ -4,37 +4,43 @@
   "name": "Otosora",
   "packageName": "com.shicomp.otosora",
   "latest": {
-    "version": "0.8.7",
-    "tag": "otosora-v0.8.7",
-    "title": "otosora v0.8.7",
-    "notes": "# Otosora 0.8.7\n\n## Windows\n- Updating from inside Otosora works again. Windows' Smart App Control blocked the installer that the update downloaded, so Otosora said \"Restarting…\" and never came back. Updates now unpack the new version over the old one with Windows' own tools.\n- If you are on 0.8.5 or older, install this version by hand once (download the zip or the setup from the release page). Updates after that work from inside the app.\n- Quitting Otosora now always ends it fully, so an update no longer waits forever for it to close.\n- The window has no system title bar anymore. Drag the empty strip along the top to move it, double-click it to maximize, and use the buttons in the top-right corner to minimize, maximize or close.\n\n## Updates\n- On Windows and Linux the update notice is a dialog in the middle of the window instead of a sheet sliding up from the bottom.\n- Release notes show as headings and bullet points instead of raw text with # and ## marks.\n\n## Discord\n- The cover in your Discord status no longer has a black band across it.\n",
-    "publishedAt": "2026-11-09T16:05:39Z",
-    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.7",
+    "version": "0.8.8",
+    "tag": "otosora-v0.8.8",
+    "title": "otosora v0.8.8",
+    "notes": "# Otosora 0.8.8\n\n## Windows\n- When Windows Smart App Control is on, Otosora no longer tries to update itself. Smart App Control refuses to start any Otosora file downloaded from the internet, because Otosora isn't code-signed yet, so the update would leave an app that won't open. The update notice now says so. To update, turn Smart App Control off in Windows Security, under App & browser control.\n",
+    "publishedAt": "2026-11-09T16:28:04Z",
+    "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.8",
     "apks": [
       {
         "abi": "arm64-v8a",
-        "name": "otosora-v0.8.7-arm64-v8a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.7/otosora-v0.8.7-arm64-v8a.apk",
-        "size": 75150683,
-        "sha256": "6c26c83a9f16fd8a5d0547c364ff380eb333041ebbe98a8b012715b0f7885722"
+        "name": "otosora-v0.8.8-arm64-v8a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.8/otosora-v0.8.8-arm64-v8a.apk",
+        "size": 75151071,
+        "sha256": "762e9c3fd8a36a84b5c57e833974751a75bcb2390327de7419659060860d3ffd"
       },
       {
         "abi": "armeabi-v7a",
-        "name": "otosora-v0.8.7-armeabi-v7a.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.7/otosora-v0.8.7-armeabi-v7a.apk",
-        "size": 68180137,
-        "sha256": "234747e5300d64d40369acf3d37c3c07b1ac3d860fb4f18459a18474afafaece"
+        "name": "otosora-v0.8.8-armeabi-v7a.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.8/otosora-v0.8.8-armeabi-v7a.apk",
+        "size": 68180349,
+        "sha256": "971c150a6011e6a0f334749987c41c62c83aaf87a3d7fff3638d20dff6794526"
       },
       {
         "abi": "x86_64",
-        "name": "otosora-v0.8.7-x86_64.apk",
-        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.7/otosora-v0.8.7-x86_64.apk",
-        "size": 78386578,
-        "sha256": "ef794438e60c80a725aa9ebdb6e56df6989351ba0719a294f11f2c05df691fdc"
+        "name": "otosora-v0.8.8-x86_64.apk",
+        "url": "https://github.com/Irana06/shicomp-apps/releases/download/otosora-v0.8.8/otosora-v0.8.8-x86_64.apk",
+        "size": 78386878,
+        "sha256": "adb284830b96c0f288fdf3ef82f6c35b7314925d2bc80d3efb3dd689cf195a38"
       }
     ]
   },
   "history": [
+    {
+      "version": "0.8.8",
+      "tag": "otosora-v0.8.8",
+      "publishedAt": "2026-11-09T16:28:04Z",
+      "pageUrl": "https://github.com/Irana06/shicomp-apps/releases/tag/otosora-v0.8.8"
+    },
     {
       "version": "0.8.7",
       "tag": "otosora-v0.8.7",
